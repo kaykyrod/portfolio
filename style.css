@@ -87,3 +87,54 @@ section.title{
     font-size: 1.3rem;
     font-weight: normal;
 }
+
+/*Sessão About*/
+
+section.about{
+    background-color: var(--verde-claro);
+    padding: 64px;
+}
+
+.about__container {
+    width: 70%;
+}
+
+.about__title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.about__paragraph:last-child {
+    margin-bottom: 0;
+}
+
+/* Sessão Skills */
+
+section.skills {
+    margin: 64px 152px;
+}
+
+.skills__title {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 32px;
+}
+
+.skills__line {
+    display: flex;
+    gap: 16px;
+}
+
+.skills__box {
+    display: flex;
+    align-items: flex-end;
+    background-color: #ffffff;
+    width: 176px;
+    height: 174px;
+    padding: 0px 0px 16px 16px;
+}
+
+.skills__name {
+    padding-top: 8px;
+    font-weight: bold;
+}
