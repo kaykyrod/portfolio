@@ -233,16 +233,52 @@ section.experience{
     height: 51px;
 }
 
+.title__network__item {
+    display: flex;
+    
+}
+
 /*Contato*/
 
 section.formcontato{
-    
+    background-color: var(--verde-claro);
+    padding: 64px 152px;
+}
+
+.formcontato__title {
+    font-size: 2rem;
+    padding-bottom: 8px;
+}
+
+.formcontato__subtext {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.formcontato__subtext:nth-child(3) {
+    padding-bottom: 32px;
+}
+
+.title__network {
+    display: flex;
+    gap: 50px; 
+}
+
+.title__network__item {
+    display: flex;
+    align-items: flex-end;
+}
+
+.title__network__item > img {
+    padding-right: 5px;
 }
 
 /*footeer*/
 
 section.footer{
-   
+   background-color: #ffffff;
+   padding: 20px 0;
+   text-align: center;
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
