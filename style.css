@@ -23,7 +23,7 @@ body {
     padding: 0;
     line-height: 1;
 }
-ol, ul,li, h2, h3, h4 {
+ol, ul,li, h2, h3, h4, p{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -75,7 +75,12 @@ section.title{
 .title__div {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
+}
+
+.title__container {
+    margin-right: 50px;
 }
 
 .title__bio {
@@ -101,12 +106,11 @@ section.about{
 
 .about__title {
     font-size: 2rem;
-    margin: 0;
 }
 
-.about__paragraph:last-child {
-    margin-bottom: 0;
-}
+.about__paragraph:nth-child(2) {
+    padding: 16px 0;
+}  
 
 /* Sessão Skills */
 
@@ -122,6 +126,7 @@ section.skills {
 
 .skills__line {
     display: flex;
+    justify-content: center;
     gap: 16px;
 }
 
@@ -137,4 +142,148 @@ section.skills {
 .skills__name {
     padding-top: 8px;
     font-weight: bold;
+}
+
+/* Experiência Acadêmica*/
+
+section.academic{
+    background-color: var(--verde-claro);
+    padding: 82px;
+}
+
+.academic__title {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 32px;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.academic__courses__item__img > img {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+   
+}
+
+.academic__courses__item__title > h4 {
+    margin: 8px 0px;
+    font-size: 1.2rem;
+}
+
+/* experiência*/
+
+section.experience{
+    margin: 32px 152px;
+}
+
+.experience__section__title {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 32px;
+}
+
+.experiencie__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.experiencie__box:nth-child(3) {
+    flex-direction: row-reverse;
+}
+
+.experience__info {
+    gap: 100px;
+}
+
+.experience__title {
+    font-size: 2rem;
+}
+
+.experience__text { 
+    padding: 8px 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.experience__description {
+    display: flex;
+    gap: 16px;
+}
+
+.experiencia__botao--repo {
+    color: var(--verde-escuro);
+    background-color: var(--bege);
+    border: 1px solid var(--verde-escuro);
+    font: var(--font-principal);
+    width: 116px;
+    height: 51px;
+}
+
+.experiencia__botao--demo {
+    color: var(--bege);
+    background-color: var(--verde-escuro);
+    border: 1px solid var(--verde-escuro);
+    font: var(--font-principal);
+    width: 116px;
+    height: 51px;
+}
+
+/*Contato*/
+
+section.formcontato{
+    
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menu */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Experiências acadêmicas*/
+
+/*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sessão sobre*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formação Acadêmica*/
+
+/*Experiência Profissional*/
+
+ /*Contato*/
+
+/*Footer*/
+
 }
