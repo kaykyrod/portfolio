@@ -126,6 +126,10 @@ section.about{
     padding: 16px 0;
     font-size: 1.5rem;
 }
+
+.about__paragraph:last-child {
+    padding: 0;
+}
  
 /* Sessão Skills */
 
