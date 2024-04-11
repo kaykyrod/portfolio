@@ -46,6 +46,10 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 div.all {
     color: var(--cinza);
     box-sizing: border-box;
@@ -64,6 +68,11 @@ section.menu{
     display: flex;
     justify-content: flex-end;
     gap: 32px;
+}
+
+.menu__list__item:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--verde-escuro);
 }
 
 /*Sessão Title*/
@@ -224,6 +233,10 @@ section.experience{
     height: 51px;
 }
 
+.experiencia__botao--repo:active {
+    background-color: #cfccc9;
+}
+
 .experiencia__botao--demo {
     color: var(--bege);
     background-color: var(--verde-escuro);
@@ -233,9 +246,8 @@ section.experience{
     height: 51px;
 }
 
-.title__network__item {
-    display: flex;
-    
+.experiencia__botao--demo:active {
+    background-color: #39503b;
 }
 
 /*Contato*/
@@ -267,6 +279,11 @@ section.formcontato{
 .title__network__item {
     display: flex;
     align-items: flex-end;
+}
+
+.title__network__item > a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--cinza);
 }
 
 .title__network__item > img {

@@ -28,7 +28,7 @@
                 <li class="menu__list__item"><a href="#sobremim">Sobre mim</a></li>
                 <li class="menu__list__item"><a href="#skills">Skills</a></li>
                 <li class="menu__list__item"><a href="#formacao">Formações</a></li>
-                <li class="menu__list__item"><a href="#xp">Projetos</a></li>
+                <li class="menu__list__item"><a href="#projetos">Projetos</a></li>
                 <li class="menu__list__item"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -46,7 +46,7 @@
     </section>
 
     <!-- Sessão sobre mim -->
-    <section class="about">
+    <section id="sobremim" class="about">
         <div class="about__container">
             <h3 class="about__title">Sobre mim</h3>
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
@@ -55,47 +55,47 @@
     </section>
 
 <!-- Sessão de Skills/Habilidades -->
-    <section class="skills">
+    <section id="skills" class="skills">
         <h3 class="skills__title" id="skills">Skills</h3>
             <div class="skills__line">
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets/html_icon.png"></li>
+                        <li class="skills__img"><img src="assets/html_icon.png" alt="HTML5 Logo"></li>
                         <li class="skills__name"> Html 5</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                        <li class="skills__img"> <img src="assets\js_icon.png" alt="JavaScript Logo"></li>
                         <li class="skills__name">JavaScript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
+                        <li class="skills__img"> <img src="assets\css_icon.png" alt="CSS3 LOGO"> </li>
                         <li class="skills__name">CSS</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets/ts_icon.png" alt=""></li>
+                        <li class="skills__img"> <img src="assets/ts_icon.png" alt="TypeScript Logo"></li>
                         <li class="skills__name">TypeScript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt="Node JS Logo"></li>
                         <li class="skills__name">Node JS</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+                        <li class="skills__img"> <img src="assets\react_icon.png" alt="React Logo"> </li>
                         <li class="skills__name">React</li>
                     </ul>
                 </div>
@@ -104,7 +104,7 @@
     </section>
 
     <!-- Sessão de Histórico Acadêmico -->
-    <section class="academic">
+    <section id="formacao" class="academic">
         <h2 class="academic__title" id="formacao">Formação acadêmica</h2>
         <div class="academic__courses">
             <div class="academic__courses__box">
@@ -135,7 +135,7 @@
     </section>
 
     <!-- Sessão de Experiência Profissional/Projetos-->
-    <section class="experience">
+    <section id="projetos" class="experience">
         <h2 class="experience__section__title" id="xp">Projetos</h2>
         <div class="experiencie__box">
             <!-- Insira a logo/captura de seu projeto/trabalho -->
@@ -145,8 +145,8 @@
                 <h3 class="experience__text">Challenge Alura Codificador </h3>
                     <div class="experience__description">
                         <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
-                            <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                            <span class="experience__repo"><a href="https://github.com/kaykyrod/decodificador" target="_blank"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href="https://decodificador-pi-nine.vercel.app/" target="_blank"><button class="experiencia__botao--demo">Ver demo</button></a></span>
                     </div>
             </div>
         </div>
@@ -159,8 +159,8 @@
                 <h3 class="experience__text">Challenge Alura</h3>
                     <div class="experience__description">
                         <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
-                            <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                            <span class="experience__repo"><a href="https://github.com/kaykyrod/numero_secreto" target="_blank"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href="https://numero-secreto-lovat-six.vercel.app/" target="_blank"><button class="experiencia__botao--demo">Ver demo</button></a></span>
                     </div>
             </div>
         </div>   
@@ -173,23 +173,23 @@
                 <h3 class="experience__text">Frontend Mentor Challenge </h3>
                     <div class="experience__description">
                         <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
-                            <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                            <span class="experience__repo"><a href="https://github.com/kaykyrod/frontendmentor-challenges/tree/main/recipe_page" target="_blank"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href="https://frontendmentor-challenges-liard.vercel.app/" target="_blank"><button class="experiencia__botao--demo">Ver demo</button></a></span>
                     </div>
             </div>
         </div>  
     </section>
 
         <!-- Sessão de Contato -->
-        <section class="formcontato">
+        <section id="contato" class="formcontato">
                 <div class="formcontato__text">
                     <h2 class="formcontato__title">Contato</h2>
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Informações para contato abaixo.</h3>
                     <ul class="title__network">
                         <!-- Ponha os links de suas redes sociais favoritas -->
-                        <li class="title__network__item"><img src="assets/github_icon.png" alt="Github Icone"><a href="#">Github <img src="assets\arrow.png"> </a></li>
-                        <li class="title__network__item"><img src="assets/linkedin_icon.png" alt="Linkedin Icone"><a href="#">Linkedin <img src="assets\arrow.png"></a></li>
+                        <li class="title__network__item"><img src="assets/github_icon.png" alt="Github Icone"><a href="https://github.com/kaykyrod" target="_blank">Github <img src="assets\arrow.png"> </a></li>
+                        <li class="title__network__item"><img src="assets/linkedin_icon.png" alt="Linkedin Icone"><a href="https://www.linkedin.com/in/kaykyrod/" target="_blank">Linkedin <img src="assets\arrow.png"></a></li>
                         <li class="title__network__item">Kayky.rodrigues021@Outlook.com </li>
                     </ul>
                     </ul>
